@@ -1,0 +1,523 @@
+[8:43:30 PM] Starting compilation in watch mode...
+apps/orchestrator dev: To restart at any time, enter rs.
+apps/backend dev: To restart at any time, enter rs.
+apps/extension dev: vite v6.4.1 building for development...
+apps/extension dev: 
+apps/extension dev: watching for file changes...
+apps/extension dev: 
+apps/extension dev: build started...
+apps/extension dev: transforming...
+apps/frontend dev:   ▲ Next.js 14.2.35
+apps/frontend dev:   - Local:        http://localhost:4200
+apps/frontend dev:   - Experiments (use with caution):
+apps/frontend dev:     · proxyTimeout
+apps/frontend dev:     · instrumentationHook
+apps/frontend dev:  ✓ Starting...
+apps/extension dev: ✓ 46 modules transformed.
+apps/extension dev: Deleted dev-icon-32.png from prod build
+apps/extension dev: Deleted dev-icon-128.png from prod build
+apps/extension dev: rendering chunks...
+apps/extension dev: The emitted file "icon-32.png" overwrites a previously emitted file of the same name.
+apps/extension dev: The emitted file "icon-128.png" overwrites a previously emitted file of the same name.
+apps/extension dev: computing gzip size...
+apps/extension dev: dist/service-worker-loader.js                     0.04 kB
+apps/extension dev: dist/assets/index.tsx-loader-DNQ_2a9k.js          0.34 kB
+apps/extension dev: dist/src/pages/options/index.html                 0.48 kB │ gzip:  0.27 kB
+apps/extension dev: dist/src/pages/popup/index.html                   0.56 kB │ gzip:  0.29 kB
+apps/extension dev: dist/icon-32.png                                  1.05 kB
+apps/extension dev: dist/manifest.json                                1.49 kB │ gzip:  0.58 kB
+apps/extension dev: dist/.vite/manifest.json                          1.88 kB │ gzip:  0.46 kB
+apps/extension dev: dist/icon-128.png                                 5.73 kB
+apps/extension dev: dist/contentStyle.css                             0.00 kB │ gzip:  0.02 kB
+apps/extension dev: dist/assets/index-tNvtlvL0.css                    0.11 kB │ gzip:  0.11 kB
+apps/extension dev: dist/assets/index-D_PkmgVC.css                    1.17 kB │ gzip:  0.59 kB
+apps/extension dev: dist/assets/index-DM4hgR5B.css                    1.18 kB │ gzip:  0.56 kB
+apps/extension dev: dist/assets/index.html-Cs1LF_cH.js                0.32 kB │ gzip:  0.26 kB
+apps/extension dev: dist/assets/index.ts-DlQ_3frD.js                  0.62 kB │ gzip:  0.38 kB
+apps/extension dev: dist/assets/modulepreload-polyfill-B5Qt9EMX.js    0.71 kB │ gzip:  0.40 kB
+apps/extension dev: dist/assets/index.html-D-Vcve9Y.js                1.15 kB │ gzip:  0.65 kB
+apps/extension dev: dist/assets/load.cookie-DJo_HAZW.js               1.43 kB │ gzip:  0.72 kB
+apps/extension dev: dist/assets/index.tsx-D1J8FlNI.js                 4.23 kB │ gzip:  1.84 kB
+apps/extension dev: dist/assets/client-DWrRtCjU.js                  142.79 kB │ gzip: 45.71 kB
+apps/extension dev: built in 468ms.
+apps/frontend dev:  ○ Compiling /instrumentation ...
+apps/frontend dev:  ✓ Compiled /instrumentation in 1688ms (1199 modules)
+apps/frontend dev:  ✓ Ready in 4.1s
+apps/orchestrator dev: [8:43:45 PM] Found 0 errors. Watching for file changes.
+apps/orchestrator dev: (node:353584) [DEP0190] DeprecationWarning: Passing args to a child process with shell option true can lead to security vulnerabilities, as the arguments are not escaped, only concatenated.
+apps/orchestrator dev: (Use `node --trace-deprecation ...` to show where the warning was created)
+apps/orchestrator dev: [Nest] 229996  - 01/20/2026, 8:43:48 PM     LOG [NestFactory] Starting Nest application...
+apps/orchestrator dev: [Nest] 229996  - 01/20/2026, 8:43:48 PM     LOG [TemporalConnectionFactory] Creating new client connection to localhost:7233 (attempt 1)
+apps/orchestrator dev: [Nest] 229996  - 01/20/2026, 8:43:48 PM     LOG [TemporalConnectionFactory] TemporalConnectionFactory
+apps/orchestrator dev: [Nest] 229996  - 01/20/2026, 8:43:48 PM     LOG [TemporalConnectionFactory] Successfully connected to localhost:7233
+apps/orchestrator dev: [Nest] 229996  - 01/20/2026, 8:43:48 PM     LOG [TemporalConnectionFactory] TemporalConnectionFactory
+apps/orchestrator dev: [Nest] 229996  - 01/20/2026, 8:43:48 PM     LOG [InstanceLoader] DiscoveryModule dependencies initialized +21ms
+apps/orchestrator dev: [Nest] 229996  - 01/20/2026, 8:43:48 PM     LOG [TemporalConnectionFactory] Worker connection established to localhost:7233
+apps/orchestrator dev: [Nest] 229996  - 01/20/2026, 8:43:48 PM     LOG [TemporalConnectionFactory] TemporalConnectionFactory
+apps/orchestrator dev: [Nest] 229996  - 01/20/2026, 8:43:48 PM     LOG [InstanceLoader] TemporalModule dependencies initialized +0ms
+apps/orchestrator dev: Email service provider: no provider
+apps/orchestrator dev: [Nest] 229996  - 01/20/2026, 8:43:48 PM     LOG [InstanceLoader] DatabaseModule dependencies initialized +3ms
+apps/orchestrator dev: [Nest] 229996  - 01/20/2026, 8:43:48 PM     LOG [InstanceLoader] AppModule dependencies initialized +0ms
+apps/backend dev: [8:43:48 PM] Found 0 errors. Watching for file changes.
+apps/backend dev: (node:272728) [DEP0190] DeprecationWarning: Passing args to a child process with shell option true can lead to security vulnerabilities, as the arguments are not escaped, only concatenated.
+apps/backend dev: (Use `node --trace-deprecation ...` to show where the warning was created)
+apps/orchestrator dev: 2026-01-20T13:43:48.836Z [INFO] asset workflow-bundle-3400339dc3ad097c9798.js 2.82 MiB [emitted] [immutable] (name: main)
+apps/orchestrator dev: runtime modules 1010 bytes 5 modules
+apps/orchestrator dev: modules by path ../../node_modules/ 952 KiB
+apps/orchestrator dev:   modules by path ../../node_modules/@temporalio/ 321 KiB 55 modules
+apps/orchestrator dev:   modules by path ../../node_modules/nexus-rpc/lib/ 25.6 KiB 17 modules
+apps/orchestrator dev:   + 4 modules
+apps/orchestrator dev: modules by path ./dist/ 18 KiB
+apps/orchestrator dev:   modules by path ./dist/apps/orchestrator/src/workflows/ 16.8 KiB 8 modules
+apps/orchestrator dev:   modules by path ./dist/libraries/nestjs-libraries/src/ 803 bytes 2 modules
+apps/orchestrator dev:   modules by path ./dist/apps/orchestrator/src/signals/*.js 452 bytes 2 modules
+apps/orchestrator dev: optional modules 30 bytes [optional]
+apps/orchestrator dev:   __temporal_custom_payload_converter (ignored) 15 bytes [optional] [built] [code generated]
+apps/orchestrator dev:   __temporal_custom_failure_converter (ignored) 15 bytes [optional] [built] [code generated]
+apps/orchestrator dev: webpack 5.104.1 compiled successfully in 389 ms { sdkComponent: 'worker', taskQueue: 'main' }
+apps/orchestrator dev: 2026-01-20T13:43:48.838Z [INFO] Workflow bundle created { sdkComponent: 'worker', taskQueue: 'main', size: '2.82MB' }
+apps/orchestrator dev: 2026-01-20T13:43:49.092930Z  WARN temporalio_sdk_core::worker::heartbeat: Worker heartbeating configured for runtime, but server version does not support it.
+apps/orchestrator dev: 2026-01-20T13:43:49.312Z [INFO] asset workflow-bundle-3400339dc3ad097c9798.js 2.82 MiB [emitted] [immutable] (name: main)
+apps/orchestrator dev: runtime modules 1010 bytes 5 modules
+apps/orchestrator dev: modules by path ../../node_modules/ 952 KiB
+apps/orchestrator dev:   modules by path ../../node_modules/@temporalio/ 321 KiB 55 modules
+apps/orchestrator dev:   modules by path ../../node_modules/nexus-rpc/lib/ 25.6 KiB 17 modules
+apps/orchestrator dev:   + 4 modules
+apps/orchestrator dev: modules by path ./dist/ 18 KiB
+apps/orchestrator dev:   modules by path ./dist/apps/orchestrator/src/workflows/ 16.8 KiB 8 modules
+apps/orchestrator dev:   modules by path ./dist/libraries/nestjs-libraries/src/ 803 bytes 2 modules
+apps/orchestrator dev:   modules by path ./dist/apps/orchestrator/src/signals/*.js 452 bytes 2 modules
+apps/orchestrator dev: optional modules 30 bytes [optional]
+apps/orchestrator dev:   __temporal_custom_payload_converter (ignored) 15 bytes [optional] [built] [code generated]
+apps/orchestrator dev:   __temporal_custom_failure_converter (ignored) 15 bytes [optional] [built] [code generated]
+apps/orchestrator dev: webpack 5.104.1 compiled successfully in 212 ms { sdkComponent: 'worker', taskQueue: 'x' }
+apps/orchestrator dev: 2026-01-20T13:43:49.314Z [INFO] Workflow bundle created { sdkComponent: 'worker', taskQueue: 'x', size: '2.82MB' }
+apps/orchestrator dev: 2026-01-20T13:43:49.659Z [INFO] asset workflow-bundle-3400339dc3ad097c9798.js 2.82 MiB [emitted] [immutable] (name: main)
+apps/orchestrator dev: runtime modules 1010 bytes 5 modules
+apps/orchestrator dev: modules by path ../../node_modules/ 952 KiB
+apps/orchestrator dev:   modules by path ../../node_modules/@temporalio/ 321 KiB 55 modules
+apps/orchestrator dev:   modules by path ../../node_modules/nexus-rpc/lib/ 25.6 KiB 17 modules
+apps/orchestrator dev:   + 4 modules
+apps/orchestrator dev: modules by path ./dist/ 18 KiB
+apps/orchestrator dev:   modules by path ./dist/apps/orchestrator/src/workflows/ 16.8 KiB 8 modules
+apps/orchestrator dev:   modules by path ./dist/libraries/nestjs-libraries/src/ 803 bytes 2 modules
+apps/orchestrator dev:   modules by path ./dist/apps/orchestrator/src/signals/*.js 452 bytes 2 modules
+apps/orchestrator dev: optional modules 30 bytes [optional]
+apps/orchestrator dev:   __temporal_custom_payload_converter (ignored) 15 bytes [optional] [built] [code generated]
+apps/orchestrator dev:   __temporal_custom_failure_converter (ignored) 15 bytes [optional] [built] [code generated]
+apps/orchestrator dev: webpack 5.104.1 compiled successfully in 183 ms { sdkComponent: 'worker', taskQueue: 'linkedin' }
+apps/orchestrator dev: 2026-01-20T13:43:49.661Z [INFO] Workflow bundle created { sdkComponent: 'worker', taskQueue: 'linkedin', size: '2.82MB' }
+apps/orchestrator dev: 2026-01-20T13:43:49.980Z [INFO] asset workflow-bundle-3400339dc3ad097c9798.js 2.82 MiB [emitted] [immutable] (name: main)
+apps/orchestrator dev: runtime modules 1010 bytes 5 modules
+apps/orchestrator dev: modules by path ../../node_modules/ 952 KiB
+apps/orchestrator dev:   modules by path ../../node_modules/@temporalio/ 321 KiB 55 modules
+apps/orchestrator dev:   modules by path ../../node_modules/nexus-rpc/lib/ 25.6 KiB 17 modules
+apps/orchestrator dev:   + 4 modules
+apps/orchestrator dev: modules by path ./dist/ 18 KiB
+apps/orchestrator dev:   modules by path ./dist/apps/orchestrator/src/workflows/ 16.8 KiB 8 modules
+apps/orchestrator dev:   modules by path ./dist/libraries/nestjs-libraries/src/ 803 bytes 2 modules
+apps/orchestrator dev:   modules by path ./dist/apps/orchestrator/src/signals/*.js 452 bytes 2 modules
+apps/orchestrator dev: optional modules 30 bytes [optional]
+apps/orchestrator dev:   __temporal_custom_payload_converter (ignored) 15 bytes [optional] [built] [code generated]
+apps/orchestrator dev:   __temporal_custom_failure_converter (ignored) 15 bytes [optional] [built] [code generated]
+apps/orchestrator dev: webpack 5.104.1 compiled successfully in 161 ms { sdkComponent: 'worker', taskQueue: 'reddit' }
+apps/orchestrator dev: 2026-01-20T13:43:49.982Z [INFO] Workflow bundle created { sdkComponent: 'worker', taskQueue: 'reddit', size: '2.82MB' }
+apps/orchestrator dev: 2026-01-20T13:43:50.302Z [INFO] asset workflow-bundle-3400339dc3ad097c9798.js 2.82 MiB [emitted] [immutable] (name: main)
+apps/orchestrator dev: runtime modules 1010 bytes 5 modules
+apps/orchestrator dev: modules by path ../../node_modules/ 952 KiB
+apps/orchestrator dev:   modules by path ../../node_modules/@temporalio/ 321 KiB 55 modules
+apps/orchestrator dev:   modules by path ../../node_modules/nexus-rpc/lib/ 25.6 KiB 17 modules
+apps/orchestrator dev:   + 4 modules
+apps/orchestrator dev: modules by path ./dist/ 18 KiB
+apps/orchestrator dev:   modules by path ./dist/apps/orchestrator/src/workflows/ 16.8 KiB 8 modules
+apps/orchestrator dev:   modules by path ./dist/libraries/nestjs-libraries/src/ 803 bytes 2 modules
+apps/orchestrator dev:   modules by path ./dist/apps/orchestrator/src/signals/*.js 452 bytes 2 modules
+apps/orchestrator dev: optional modules 30 bytes [optional]
+apps/orchestrator dev:   __temporal_custom_payload_converter (ignored) 15 bytes [optional] [built] [code generated]
+apps/orchestrator dev:   __temporal_custom_failure_converter (ignored) 15 bytes [optional] [built] [code generated]
+apps/orchestrator dev: webpack 5.104.1 compiled successfully in 167 ms { sdkComponent: 'worker', taskQueue: 'instagram' }
+apps/orchestrator dev: 2026-01-20T13:43:50.304Z [INFO] Workflow bundle created { sdkComponent: 'worker', taskQueue: 'instagram', size: '2.82MB' }
+apps/orchestrator dev: 2026-01-20T13:43:50.627Z [INFO] asset workflow-bundle-3400339dc3ad097c9798.js 2.82 MiB [emitted] [immutable] (name: main)
+apps/orchestrator dev: runtime modules 1010 bytes 5 modules
+apps/orchestrator dev: modules by path ../../node_modules/ 952 KiB
+apps/orchestrator dev:   modules by path ../../node_modules/@temporalio/ 321 KiB 55 modules
+apps/orchestrator dev:   modules by path ../../node_modules/nexus-rpc/lib/ 25.6 KiB 17 modules
+apps/orchestrator dev:   + 4 modules
+apps/orchestrator dev: modules by path ./dist/ 18 KiB
+apps/orchestrator dev:   modules by path ./dist/apps/orchestrator/src/workflows/ 16.8 KiB 8 modules
+apps/orchestrator dev:   modules by path ./dist/libraries/nestjs-libraries/src/ 803 bytes 2 modules
+apps/orchestrator dev:   modules by path ./dist/apps/orchestrator/src/signals/*.js 452 bytes 2 modules
+apps/orchestrator dev: optional modules 30 bytes [optional]
+apps/orchestrator dev:   __temporal_custom_payload_converter (ignored) 15 bytes [optional] [built] [code generated]
+apps/orchestrator dev:   __temporal_custom_failure_converter (ignored) 15 bytes [optional] [built] [code generated]
+apps/orchestrator dev: webpack 5.104.1 compiled successfully in 166 ms { sdkComponent: 'worker', taskQueue: 'facebook' }
+apps/orchestrator dev: 2026-01-20T13:43:50.630Z [INFO] Workflow bundle created { sdkComponent: 'worker', taskQueue: 'facebook', size: '2.82MB' }
+apps/orchestrator dev: 2026-01-20T13:43:50.983Z [INFO] asset workflow-bundle-3400339dc3ad097c9798.js 2.82 MiB [emitted] [immutable] (name: main)
+apps/orchestrator dev: runtime modules 1010 bytes 5 modules
+apps/orchestrator dev: modules by path ../../node_modules/ 952 KiB
+apps/orchestrator dev:   modules by path ../../node_modules/@temporalio/ 321 KiB 55 modules
+apps/orchestrator dev:   modules by path ../../node_modules/nexus-rpc/lib/ 25.6 KiB 17 modules
+apps/orchestrator dev:   + 4 modules
+apps/orchestrator dev: modules by path ./dist/ 18 KiB
+apps/orchestrator dev:   modules by path ./dist/apps/orchestrator/src/workflows/ 16.8 KiB 8 modules
+apps/orchestrator dev:   modules by path ./dist/libraries/nestjs-libraries/src/ 803 bytes 2 modules
+apps/orchestrator dev:   modules by path ./dist/apps/orchestrator/src/signals/*.js 452 bytes 2 modules
+apps/orchestrator dev: optional modules 30 bytes [optional]
+apps/orchestrator dev:   __temporal_custom_payload_converter (ignored) 15 bytes [optional] [built] [code generated]
+apps/orchestrator dev:   __temporal_custom_failure_converter (ignored) 15 bytes [optional] [built] [code generated]
+apps/orchestrator dev: webpack 5.104.1 compiled successfully in 174 ms { sdkComponent: 'worker', taskQueue: 'threads' }
+apps/orchestrator dev: 2026-01-20T13:43:50.985Z [INFO] Workflow bundle created { sdkComponent: 'worker', taskQueue: 'threads', size: '2.82MB' }
+apps/orchestrator dev: 2026-01-20T13:43:51.307Z [INFO] asset workflow-bundle-3400339dc3ad097c9798.js 2.82 MiB [emitted] [immutable] (name: main)
+apps/orchestrator dev: runtime modules 1010 bytes 5 modules
+apps/orchestrator dev: modules by path ../../node_modules/ 952 KiB
+apps/orchestrator dev:   modules by path ../../node_modules/@temporalio/ 321 KiB 55 modules
+apps/orchestrator dev:   modules by path ../../node_modules/nexus-rpc/lib/ 25.6 KiB 17 modules
+apps/orchestrator dev:   + 4 modules
+apps/orchestrator dev: modules by path ./dist/ 18 KiB
+apps/orchestrator dev:   modules by path ./dist/apps/orchestrator/src/workflows/ 16.8 KiB 8 modules
+apps/orchestrator dev:   modules by path ./dist/libraries/nestjs-libraries/src/ 803 bytes 2 modules
+apps/orchestrator dev:   modules by path ./dist/apps/orchestrator/src/signals/*.js 452 bytes 2 modules
+apps/orchestrator dev: optional modules 30 bytes [optional]
+apps/orchestrator dev:   __temporal_custom_payload_converter (ignored) 15 bytes [optional] [built] [code generated]
+apps/orchestrator dev:   __temporal_custom_failure_converter (ignored) 15 bytes [optional] [built] [code generated]
+apps/orchestrator dev: webpack 5.104.1 compiled successfully in 163 ms { sdkComponent: 'worker', taskQueue: 'youtube' }
+apps/orchestrator dev: 2026-01-20T13:43:51.310Z [INFO] Workflow bundle created { sdkComponent: 'worker', taskQueue: 'youtube', size: '2.82MB' }
+apps/orchestrator dev: 2026-01-20T13:43:51.645Z [INFO] asset workflow-bundle-3400339dc3ad097c9798.js 2.82 MiB [emitted] [immutable] (name: main)
+apps/orchestrator dev: runtime modules 1010 bytes 5 modules
+apps/orchestrator dev: modules by path ../../node_modules/ 952 KiB
+apps/orchestrator dev:   modules by path ../../node_modules/@temporalio/ 321 KiB 55 modules
+apps/orchestrator dev:   modules by path ../../node_modules/nexus-rpc/lib/ 25.6 KiB 17 modules
+apps/orchestrator dev:   + 4 modules
+apps/orchestrator dev: modules by path ./dist/ 18 KiB
+apps/orchestrator dev:   modules by path ./dist/apps/orchestrator/src/workflows/ 16.8 KiB 8 modules
+apps/orchestrator dev:   modules by path ./dist/libraries/nestjs-libraries/src/ 803 bytes 2 modules
+apps/orchestrator dev:   modules by path ./dist/apps/orchestrator/src/signals/*.js 452 bytes 2 modules
+apps/orchestrator dev: optional modules 30 bytes [optional]
+apps/orchestrator dev:   __temporal_custom_payload_converter (ignored) 15 bytes [optional] [built] [code generated]
+apps/orchestrator dev:   __temporal_custom_failure_converter (ignored) 15 bytes [optional] [built] [code generated]
+apps/orchestrator dev: webpack 5.104.1 compiled successfully in 164 ms { sdkComponent: 'worker', taskQueue: 'gmb' }
+apps/orchestrator dev: 2026-01-20T13:43:51.647Z [INFO] Workflow bundle created { sdkComponent: 'worker', taskQueue: 'gmb', size: '2.82MB' }
+apps/orchestrator dev: 2026-01-20T13:43:51.965Z [INFO] asset workflow-bundle-3400339dc3ad097c9798.js 2.82 MiB [emitted] [immutable] (name: main)
+apps/orchestrator dev: runtime modules 1010 bytes 5 modules
+apps/orchestrator dev: modules by path ../../node_modules/ 952 KiB
+apps/orchestrator dev:   modules by path ../../node_modules/@temporalio/ 321 KiB 55 modules
+apps/orchestrator dev:   modules by path ../../node_modules/nexus-rpc/lib/ 25.6 KiB 17 modules
+apps/orchestrator dev:   + 4 modules
+apps/orchestrator dev: modules by path ./dist/ 18 KiB
+apps/orchestrator dev:   modules by path ./dist/apps/orchestrator/src/workflows/ 16.8 KiB 8 modules
+apps/orchestrator dev:   modules by path ./dist/libraries/nestjs-libraries/src/ 803 bytes 2 modules
+apps/orchestrator dev:   modules by path ./dist/apps/orchestrator/src/signals/*.js 452 bytes 2 modules
+apps/orchestrator dev: optional modules 30 bytes [optional]
+apps/orchestrator dev:   __temporal_custom_payload_converter (ignored) 15 bytes [optional] [built] [code generated]
+apps/orchestrator dev:   __temporal_custom_failure_converter (ignored) 15 bytes [optional] [built] [code generated]
+apps/orchestrator dev: webpack 5.104.1 compiled successfully in 161 ms { sdkComponent: 'worker', taskQueue: 'tiktok' }
+apps/orchestrator dev: 2026-01-20T13:43:51.967Z [INFO] Workflow bundle created { sdkComponent: 'worker', taskQueue: 'tiktok', size: '2.82MB' }
+apps/orchestrator dev: 2026-01-20T13:43:52.316Z [INFO] asset workflow-bundle-3400339dc3ad097c9798.js 2.82 MiB [emitted] [immutable] (name: main)
+apps/orchestrator dev: runtime modules 1010 bytes 5 modules
+apps/orchestrator dev: modules by path ../../node_modules/ 952 KiB
+apps/orchestrator dev:   modules by path ../../node_modules/@temporalio/ 321 KiB 55 modules
+apps/orchestrator dev:   modules by path ../../node_modules/nexus-rpc/lib/ 25.6 KiB 17 modules
+apps/orchestrator dev:   + 4 modules
+apps/orchestrator dev: modules by path ./dist/ 18 KiB
+apps/orchestrator dev:   modules by path ./dist/apps/orchestrator/src/workflows/ 16.8 KiB 8 modules
+apps/orchestrator dev:   modules by path ./dist/libraries/nestjs-libraries/src/ 803 bytes 2 modules
+apps/orchestrator dev:   modules by path ./dist/apps/orchestrator/src/signals/*.js 452 bytes 2 modules
+apps/orchestrator dev: optional modules 30 bytes [optional]
+apps/orchestrator dev:   __temporal_custom_payload_converter (ignored) 15 bytes [optional] [built] [code generated]
+apps/orchestrator dev:   __temporal_custom_failure_converter (ignored) 15 bytes [optional] [built] [code generated]
+apps/orchestrator dev: webpack 5.104.1 compiled successfully in 180 ms { sdkComponent: 'worker', taskQueue: 'pinterest' }
+apps/orchestrator dev: 2026-01-20T13:43:52.318Z [INFO] Workflow bundle created { sdkComponent: 'worker', taskQueue: 'pinterest', size: '2.82MB' }
+apps/orchestrator dev: 2026-01-20T13:43:52.631Z [INFO] asset workflow-bundle-3400339dc3ad097c9798.js 2.82 MiB [emitted] [immutable] (name: main)
+apps/orchestrator dev: runtime modules 1010 bytes 5 modules
+apps/orchestrator dev: modules by path ../../node_modules/ 952 KiB
+apps/orchestrator dev:   modules by path ../../node_modules/@temporalio/ 321 KiB 55 modules
+apps/orchestrator dev:   modules by path ../../node_modules/nexus-rpc/lib/ 25.6 KiB 17 modules
+apps/orchestrator dev:   + 4 modules
+apps/orchestrator dev: modules by path ./dist/ 18 KiB
+apps/orchestrator dev:   modules by path ./dist/apps/orchestrator/src/workflows/ 16.8 KiB 8 modules
+apps/orchestrator dev:   modules by path ./dist/libraries/nestjs-libraries/src/ 803 bytes 2 modules
+apps/orchestrator dev:   modules by path ./dist/apps/orchestrator/src/signals/*.js 452 bytes 2 modules
+apps/orchestrator dev: optional modules 30 bytes [optional]
+apps/orchestrator dev:   __temporal_custom_payload_converter (ignored) 15 bytes [optional] [built] [code generated]
+apps/orchestrator dev:   __temporal_custom_failure_converter (ignored) 15 bytes [optional] [built] [code generated]
+apps/orchestrator dev: webpack 5.104.1 compiled successfully in 159 ms { sdkComponent: 'worker', taskQueue: 'dribbble' }
+apps/orchestrator dev: 2026-01-20T13:43:52.634Z [INFO] Workflow bundle created { sdkComponent: 'worker', taskQueue: 'dribbble', size: '2.82MB' }
+apps/orchestrator dev: 2026-01-20T13:43:52.947Z [INFO] asset workflow-bundle-3400339dc3ad097c9798.js 2.82 MiB [emitted] [immutable] (name: main)
+apps/orchestrator dev: runtime modules 1010 bytes 5 modules
+apps/orchestrator dev: modules by path ../../node_modules/ 952 KiB
+apps/orchestrator dev:   modules by path ../../node_modules/@temporalio/ 321 KiB 55 modules
+apps/orchestrator dev:   modules by path ../../node_modules/nexus-rpc/lib/ 25.6 KiB 17 modules
+apps/orchestrator dev:   + 4 modules
+apps/orchestrator dev: modules by path ./dist/ 18 KiB
+apps/orchestrator dev:   modules by path ./dist/apps/orchestrator/src/workflows/ 16.8 KiB 8 modules
+apps/orchestrator dev:   modules by path ./dist/libraries/nestjs-libraries/src/ 803 bytes 2 modules
+apps/orchestrator dev:   modules by path ./dist/apps/orchestrator/src/signals/*.js 452 bytes 2 modules
+apps/orchestrator dev: optional modules 30 bytes [optional]
+apps/orchestrator dev:   __temporal_custom_payload_converter (ignored) 15 bytes [optional] [built] [code generated]
+apps/orchestrator dev:   __temporal_custom_failure_converter (ignored) 15 bytes [optional] [built] [code generated]
+apps/orchestrator dev: webpack 5.104.1 compiled successfully in 160 ms { sdkComponent: 'worker', taskQueue: 'discord' }
+apps/orchestrator dev: 2026-01-20T13:43:52.949Z [INFO] Workflow bundle created { sdkComponent: 'worker', taskQueue: 'discord', size: '2.82MB' }
+apps/orchestrator dev: 2026-01-20T13:43:53.262Z [INFO] asset workflow-bundle-3400339dc3ad097c9798.js 2.82 MiB [emitted] [immutable] (name: main)
+apps/orchestrator dev: runtime modules 1010 bytes 5 modules
+apps/orchestrator dev: modules by path ../../node_modules/ 952 KiB
+apps/orchestrator dev:   modules by path ../../node_modules/@temporalio/ 321 KiB 55 modules
+apps/orchestrator dev:   modules by path ../../node_modules/nexus-rpc/lib/ 25.6 KiB 17 modules
+apps/orchestrator dev:   + 4 modules
+apps/orchestrator dev: modules by path ./dist/ 18 KiB
+apps/orchestrator dev:   modules by path ./dist/apps/orchestrator/src/workflows/ 16.8 KiB 8 modules
+apps/orchestrator dev:   modules by path ./dist/libraries/nestjs-libraries/src/ 803 bytes 2 modules
+apps/orchestrator dev:   modules by path ./dist/apps/orchestrator/src/signals/*.js 452 bytes 2 modules
+apps/orchestrator dev: optional modules 30 bytes [optional]
+apps/orchestrator dev:   __temporal_custom_payload_converter (ignored) 15 bytes [optional] [built] [code generated]
+apps/orchestrator dev:   __temporal_custom_failure_converter (ignored) 15 bytes [optional] [built] [code generated]
+apps/orchestrator dev: webpack 5.104.1 compiled successfully in 160 ms { sdkComponent: 'worker', taskQueue: 'slack' }
+apps/orchestrator dev: 2026-01-20T13:43:53.264Z [INFO] Workflow bundle created { sdkComponent: 'worker', taskQueue: 'slack', size: '2.82MB' }
+apps/orchestrator dev: 2026-01-20T13:43:53.608Z [INFO] asset workflow-bundle-3400339dc3ad097c9798.js 2.82 MiB [emitted] [immutable] (name: main)
+apps/orchestrator dev: runtime modules 1010 bytes 5 modules
+apps/orchestrator dev: modules by path ../../node_modules/ 952 KiB
+apps/orchestrator dev:   modules by path ../../node_modules/@temporalio/ 321 KiB 55 modules
+apps/orchestrator dev:   modules by path ../../node_modules/nexus-rpc/lib/ 25.6 KiB 17 modules
+apps/orchestrator dev:   + 4 modules
+apps/orchestrator dev: modules by path ./dist/ 18 KiB
+apps/orchestrator dev:   modules by path ./dist/apps/orchestrator/src/workflows/ 16.8 KiB 8 modules
+apps/orchestrator dev:   modules by path ./dist/libraries/nestjs-libraries/src/ 803 bytes 2 modules
+apps/orchestrator dev:   modules by path ./dist/apps/orchestrator/src/signals/*.js 452 bytes 2 modules
+apps/orchestrator dev: optional modules 30 bytes [optional]
+apps/orchestrator dev:   __temporal_custom_payload_converter (ignored) 15 bytes [optional] [built] [code generated]
+apps/orchestrator dev:   __temporal_custom_failure_converter (ignored) 15 bytes [optional] [built] [code generated]
+apps/orchestrator dev: webpack 5.104.1 compiled successfully in 175 ms { sdkComponent: 'worker', taskQueue: 'mastodon' }
+apps/orchestrator dev: 2026-01-20T13:43:53.610Z [INFO] Workflow bundle created { sdkComponent: 'worker', taskQueue: 'mastodon', size: '2.82MB' }
+apps/orchestrator dev: 2026-01-20T13:43:53.942Z [INFO] asset workflow-bundle-3400339dc3ad097c9798.js 2.82 MiB [emitted] [immutable] (name: main)
+apps/orchestrator dev: runtime modules 1010 bytes 5 modules
+apps/orchestrator dev: modules by path ../../node_modules/ 952 KiB
+apps/orchestrator dev:   modules by path ../../node_modules/@temporalio/ 321 KiB 55 modules
+apps/orchestrator dev:   modules by path ../../node_modules/nexus-rpc/lib/ 25.6 KiB 17 modules
+apps/orchestrator dev:   + 4 modules
+apps/orchestrator dev: modules by path ./dist/ 18 KiB
+apps/orchestrator dev:   modules by path ./dist/apps/orchestrator/src/workflows/ 16.8 KiB 8 modules
+apps/orchestrator dev:   modules by path ./dist/libraries/nestjs-libraries/src/ 803 bytes 2 modules
+apps/orchestrator dev:   modules by path ./dist/apps/orchestrator/src/signals/*.js 452 bytes 2 modules
+apps/orchestrator dev: optional modules 30 bytes [optional]
+apps/orchestrator dev:   __temporal_custom_payload_converter (ignored) 15 bytes [optional] [built] [code generated]
+apps/orchestrator dev:   __temporal_custom_failure_converter (ignored) 15 bytes [optional] [built] [code generated]
+apps/orchestrator dev: webpack 5.104.1 compiled successfully in 173 ms { sdkComponent: 'worker', taskQueue: 'bluesky' }
+apps/orchestrator dev: 2026-01-20T13:43:53.944Z [INFO] Workflow bundle created { sdkComponent: 'worker', taskQueue: 'bluesky', size: '2.82MB' }
+apps/orchestrator dev: 2026-01-20T13:43:54.259Z [INFO] asset workflow-bundle-3400339dc3ad097c9798.js 2.82 MiB [emitted] [immutable] (name: main)
+apps/orchestrator dev: runtime modules 1010 bytes 5 modules
+apps/orchestrator dev: modules by path ../../node_modules/ 952 KiB
+apps/orchestrator dev:   modules by path ../../node_modules/@temporalio/ 321 KiB 55 modules
+apps/orchestrator dev:   modules by path ../../node_modules/nexus-rpc/lib/ 25.6 KiB 17 modules
+apps/orchestrator dev:   + 4 modules
+apps/orchestrator dev: modules by path ./dist/ 18 KiB
+apps/orchestrator dev:   modules by path ./dist/apps/orchestrator/src/workflows/ 16.8 KiB 8 modules
+apps/orchestrator dev:   modules by path ./dist/libraries/nestjs-libraries/src/ 803 bytes 2 modules
+apps/orchestrator dev:   modules by path ./dist/apps/orchestrator/src/signals/*.js 452 bytes 2 modules
+apps/orchestrator dev: optional modules 30 bytes [optional]
+apps/orchestrator dev:   __temporal_custom_payload_converter (ignored) 15 bytes [optional] [built] [code generated]
+apps/orchestrator dev:   __temporal_custom_failure_converter (ignored) 15 bytes [optional] [built] [code generated]
+apps/orchestrator dev: webpack 5.104.1 compiled successfully in 162 ms { sdkComponent: 'worker', taskQueue: 'lemmy' }
+apps/orchestrator dev: 2026-01-20T13:43:54.262Z [INFO] Workflow bundle created { sdkComponent: 'worker', taskQueue: 'lemmy', size: '2.82MB' }
+apps/orchestrator dev: 2026-01-20T13:43:54.584Z [INFO] asset workflow-bundle-3400339dc3ad097c9798.js 2.82 MiB [emitted] [immutable] (name: main)
+apps/orchestrator dev: runtime modules 1010 bytes 5 modules
+apps/orchestrator dev: modules by path ../../node_modules/ 952 KiB
+apps/orchestrator dev:   modules by path ../../node_modules/@temporalio/ 321 KiB 55 modules
+apps/orchestrator dev:   modules by path ../../node_modules/nexus-rpc/lib/ 25.6 KiB 17 modules
+apps/orchestrator dev:   + 4 modules
+apps/orchestrator dev: modules by path ./dist/ 18 KiB
+apps/orchestrator dev:   modules by path ./dist/apps/orchestrator/src/workflows/ 16.8 KiB 8 modules
+apps/orchestrator dev:   modules by path ./dist/libraries/nestjs-libraries/src/ 803 bytes 2 modules
+apps/orchestrator dev:   modules by path ./dist/apps/orchestrator/src/signals/*.js 452 bytes 2 modules
+apps/orchestrator dev: optional modules 30 bytes [optional]
+apps/orchestrator dev:   __temporal_custom_payload_converter (ignored) 15 bytes [optional] [built] [code generated]
+apps/orchestrator dev:   __temporal_custom_failure_converter (ignored) 15 bytes [optional] [built] [code generated]
+apps/orchestrator dev: webpack 5.104.1 compiled successfully in 169 ms { sdkComponent: 'worker', taskQueue: 'wrapcast' }
+apps/orchestrator dev: 2026-01-20T13:43:54.587Z [INFO] Workflow bundle created { sdkComponent: 'worker', taskQueue: 'wrapcast', size: '2.82MB' }
+apps/orchestrator dev: 2026-01-20T13:43:54.942Z [INFO] asset workflow-bundle-3400339dc3ad097c9798.js 2.82 MiB [emitted] [immutable] (name: main)
+apps/orchestrator dev: runtime modules 1010 bytes 5 modules
+apps/orchestrator dev: modules by path ../../node_modules/ 952 KiB
+apps/orchestrator dev:   modules by path ../../node_modules/@temporalio/ 321 KiB 55 modules
+apps/orchestrator dev:   modules by path ../../node_modules/nexus-rpc/lib/ 25.6 KiB 17 modules
+apps/orchestrator dev:   + 4 modules
+apps/orchestrator dev: modules by path ./dist/ 18 KiB
+apps/orchestrator dev:   modules by path ./dist/apps/orchestrator/src/workflows/ 16.8 KiB 8 modules
+apps/orchestrator dev:   modules by path ./dist/libraries/nestjs-libraries/src/ 803 bytes 2 modules
+apps/orchestrator dev:   modules by path ./dist/apps/orchestrator/src/signals/*.js 452 bytes 2 modules
+apps/orchestrator dev: optional modules 30 bytes [optional]
+apps/orchestrator dev:   __temporal_custom_payload_converter (ignored) 15 bytes [optional] [built] [code generated]
+apps/orchestrator dev:   __temporal_custom_failure_converter (ignored) 15 bytes [optional] [built] [code generated]
+apps/orchestrator dev: webpack 5.104.1 compiled successfully in 177 ms { sdkComponent: 'worker', taskQueue: 'telegram' }
+apps/orchestrator dev: 2026-01-20T13:43:54.944Z [INFO] Workflow bundle created { sdkComponent: 'worker', taskQueue: 'telegram', size: '2.82MB' }
+apps/orchestrator dev: 2026-01-20T13:43:55.265Z [INFO] asset workflow-bundle-3400339dc3ad097c9798.js 2.82 MiB [emitted] [immutable] (name: main)
+apps/orchestrator dev: runtime modules 1010 bytes 5 modules
+apps/orchestrator dev: modules by path ../../node_modules/ 952 KiB
+apps/orchestrator dev:   modules by path ../../node_modules/@temporalio/ 321 KiB 55 modules
+apps/orchestrator dev:   modules by path ../../node_modules/nexus-rpc/lib/ 25.6 KiB 17 modules
+apps/orchestrator dev:   + 4 modules
+apps/orchestrator dev: modules by path ./dist/ 18 KiB
+apps/orchestrator dev:   modules by path ./dist/apps/orchestrator/src/workflows/ 16.8 KiB 8 modules
+apps/orchestrator dev:   modules by path ./dist/libraries/nestjs-libraries/src/ 803 bytes 2 modules
+apps/orchestrator dev:   modules by path ./dist/apps/orchestrator/src/signals/*.js 452 bytes 2 modules
+apps/orchestrator dev: optional modules 30 bytes [optional]
+apps/orchestrator dev:   __temporal_custom_payload_converter (ignored) 15 bytes [optional] [built] [code generated]
+apps/orchestrator dev:   __temporal_custom_failure_converter (ignored) 15 bytes [optional] [built] [code generated]
+apps/orchestrator dev: webpack 5.104.1 compiled successfully in 163 ms { sdkComponent: 'worker', taskQueue: 'nostr' }
+apps/orchestrator dev: 2026-01-20T13:43:55.267Z [INFO] Workflow bundle created { sdkComponent: 'worker', taskQueue: 'nostr', size: '2.82MB' }
+apps/orchestrator dev: 2026-01-20T13:43:55.596Z [INFO] asset workflow-bundle-3400339dc3ad097c9798.js 2.82 MiB [emitted] [immutable] (name: main)
+apps/orchestrator dev: runtime modules 1010 bytes 5 modules
+apps/orchestrator dev: modules by path ../../node_modules/ 952 KiB
+apps/orchestrator dev:   modules by path ../../node_modules/@temporalio/ 321 KiB 55 modules
+apps/orchestrator dev:   modules by path ../../node_modules/nexus-rpc/lib/ 25.6 KiB 17 modules
+apps/orchestrator dev:   + 4 modules
+apps/orchestrator dev: modules by path ./dist/ 18 KiB
+apps/orchestrator dev:   modules by path ./dist/apps/orchestrator/src/workflows/ 16.8 KiB 8 modules
+apps/orchestrator dev:   modules by path ./dist/libraries/nestjs-libraries/src/ 803 bytes 2 modules
+apps/orchestrator dev:   modules by path ./dist/apps/orchestrator/src/signals/*.js 452 bytes 2 modules
+apps/orchestrator dev: optional modules 30 bytes [optional]
+apps/orchestrator dev:   __temporal_custom_payload_converter (ignored) 15 bytes [optional] [built] [code generated]
+apps/orchestrator dev:   __temporal_custom_failure_converter (ignored) 15 bytes [optional] [built] [code generated]
+apps/orchestrator dev: webpack 5.104.1 compiled successfully in 175 ms { sdkComponent: 'worker', taskQueue: 'vk' }
+apps/orchestrator dev: 2026-01-20T13:43:55.598Z [INFO] Workflow bundle created { sdkComponent: 'worker', taskQueue: 'vk', size: '2.82MB' }
+apps/orchestrator dev: 2026-01-20T13:43:55.912Z [INFO] asset workflow-bundle-3400339dc3ad097c9798.js 2.82 MiB [emitted] [immutable] (name: main)
+apps/orchestrator dev: runtime modules 1010 bytes 5 modules
+apps/orchestrator dev: modules by path ../../node_modules/ 952 KiB
+apps/orchestrator dev:   modules by path ../../node_modules/@temporalio/ 321 KiB 55 modules
+apps/orchestrator dev:   modules by path ../../node_modules/nexus-rpc/lib/ 25.6 KiB 17 modules
+apps/orchestrator dev:   + 4 modules
+apps/orchestrator dev: modules by path ./dist/ 18 KiB
+apps/orchestrator dev:   modules by path ./dist/apps/orchestrator/src/workflows/ 16.8 KiB 8 modules
+apps/orchestrator dev:   modules by path ./dist/libraries/nestjs-libraries/src/ 803 bytes 2 modules
+apps/orchestrator dev:   modules by path ./dist/apps/orchestrator/src/signals/*.js 452 bytes 2 modules
+apps/orchestrator dev: optional modules 30 bytes [optional]
+apps/orchestrator dev:   __temporal_custom_payload_converter (ignored) 15 bytes [optional] [built] [code generated]
+apps/orchestrator dev:   __temporal_custom_failure_converter (ignored) 15 bytes [optional] [built] [code generated]
+apps/orchestrator dev: webpack 5.104.1 compiled successfully in 164 ms { sdkComponent: 'worker', taskQueue: 'medium' }
+apps/orchestrator dev: 2026-01-20T13:43:55.914Z [INFO] Workflow bundle created { sdkComponent: 'worker', taskQueue: 'medium', size: '2.82MB' }
+apps/orchestrator dev: 2026-01-20T13:43:56.257Z [INFO] asset workflow-bundle-3400339dc3ad097c9798.js 2.82 MiB [emitted] [immutable] (name: main)
+apps/orchestrator dev: runtime modules 1010 bytes 5 modules
+apps/orchestrator dev: modules by path ../../node_modules/ 952 KiB
+apps/orchestrator dev:   modules by path ../../node_modules/@temporalio/ 321 KiB 55 modules
+apps/orchestrator dev:   modules by path ../../node_modules/nexus-rpc/lib/ 25.6 KiB 17 modules
+apps/orchestrator dev:   + 4 modules
+apps/orchestrator dev: modules by path ./dist/ 18 KiB
+apps/orchestrator dev:   modules by path ./dist/apps/orchestrator/src/workflows/ 16.8 KiB 8 modules
+apps/orchestrator dev:   modules by path ./dist/libraries/nestjs-libraries/src/ 803 bytes 2 modules
+apps/orchestrator dev:   modules by path ./dist/apps/orchestrator/src/signals/*.js 452 bytes 2 modules
+apps/orchestrator dev: optional modules 30 bytes [optional]
+apps/orchestrator dev:   __temporal_custom_payload_converter (ignored) 15 bytes [optional] [built] [code generated]
+apps/orchestrator dev:   __temporal_custom_failure_converter (ignored) 15 bytes [optional] [built] [code generated]
+apps/orchestrator dev: webpack 5.104.1 compiled successfully in 177 ms { sdkComponent: 'worker', taskQueue: 'devto' }
+apps/orchestrator dev: 2026-01-20T13:43:56.259Z [INFO] Workflow bundle created { sdkComponent: 'worker', taskQueue: 'devto', size: '2.82MB' }
+apps/orchestrator dev: 2026-01-20T13:43:56.574Z [INFO] asset workflow-bundle-3400339dc3ad097c9798.js 2.82 MiB [emitted] [immutable] (name: main)
+apps/orchestrator dev: runtime modules 1010 bytes 5 modules
+apps/orchestrator dev: modules by path ../../node_modules/ 952 KiB
+apps/orchestrator dev:   modules by path ../../node_modules/@temporalio/ 321 KiB 55 modules
+apps/orchestrator dev:   modules by path ../../node_modules/nexus-rpc/lib/ 25.6 KiB 17 modules
+apps/orchestrator dev:   + 4 modules
+apps/orchestrator dev: modules by path ./dist/ 18 KiB
+apps/orchestrator dev:   modules by path ./dist/apps/orchestrator/src/workflows/ 16.8 KiB 8 modules
+apps/orchestrator dev:   modules by path ./dist/libraries/nestjs-libraries/src/ 803 bytes 2 modules
+apps/orchestrator dev:   modules by path ./dist/apps/orchestrator/src/signals/*.js 452 bytes 2 modules
+apps/orchestrator dev: optional modules 30 bytes [optional]
+apps/orchestrator dev:   __temporal_custom_payload_converter (ignored) 15 bytes [optional] [built] [code generated]
+apps/orchestrator dev:   __temporal_custom_failure_converter (ignored) 15 bytes [optional] [built] [code generated]
+apps/orchestrator dev: webpack 5.104.1 compiled successfully in 161 ms { sdkComponent: 'worker', taskQueue: 'hashnode' }
+apps/orchestrator dev: 2026-01-20T13:43:56.576Z [INFO] Workflow bundle created { sdkComponent: 'worker', taskQueue: 'hashnode', size: '2.82MB' }
+apps/orchestrator dev: 2026-01-20T13:43:56.904Z [INFO] asset workflow-bundle-3400339dc3ad097c9798.js 2.82 MiB [emitted] [immutable] (name: main)
+apps/orchestrator dev: runtime modules 1010 bytes 5 modules
+apps/orchestrator dev: modules by path ../../node_modules/ 952 KiB
+apps/orchestrator dev:   modules by path ../../node_modules/@temporalio/ 321 KiB 55 modules
+apps/orchestrator dev:   modules by path ../../node_modules/nexus-rpc/lib/ 25.6 KiB 17 modules
+apps/orchestrator dev:   + 4 modules
+apps/orchestrator dev: modules by path ./dist/ 18 KiB
+apps/orchestrator dev:   modules by path ./dist/apps/orchestrator/src/workflows/ 16.8 KiB 8 modules
+apps/orchestrator dev:   modules by path ./dist/libraries/nestjs-libraries/src/ 803 bytes 2 modules
+apps/orchestrator dev:   modules by path ./dist/apps/orchestrator/src/signals/*.js 452 bytes 2 modules
+apps/orchestrator dev: optional modules 30 bytes [optional]
+apps/orchestrator dev:   __temporal_custom_payload_converter (ignored) 15 bytes [optional] [built] [code generated]
+apps/orchestrator dev:   __temporal_custom_failure_converter (ignored) 15 bytes [optional] [built] [code generated]
+apps/orchestrator dev: webpack 5.104.1 compiled successfully in 162 ms { sdkComponent: 'worker', taskQueue: 'wordpress' }
+apps/orchestrator dev: 2026-01-20T13:43:56.907Z [INFO] Workflow bundle created { sdkComponent: 'worker', taskQueue: 'wordpress', size: '2.82MB' }
+apps/orchestrator dev: 2026-01-20T13:43:57.217Z [INFO] asset workflow-bundle-3400339dc3ad097c9798.js 2.82 MiB [emitted] [immutable] (name: main)
+apps/orchestrator dev: runtime modules 1010 bytes 5 modules
+apps/orchestrator dev: modules by path ../../node_modules/ 952 KiB
+apps/orchestrator dev:   modules by path ../../node_modules/@temporalio/ 321 KiB 55 modules
+apps/orchestrator dev:   modules by path ../../node_modules/nexus-rpc/lib/ 25.6 KiB 17 modules
+apps/orchestrator dev:   + 4 modules
+apps/orchestrator dev: modules by path ./dist/ 18 KiB
+apps/orchestrator dev:   modules by path ./dist/apps/orchestrator/src/workflows/ 16.8 KiB 8 modules
+apps/orchestrator dev:   modules by path ./dist/libraries/nestjs-libraries/src/ 803 bytes 2 modules
+apps/orchestrator dev:   modules by path ./dist/apps/orchestrator/src/signals/*.js 452 bytes 2 modules
+apps/orchestrator dev: optional modules 30 bytes [optional]
+apps/orchestrator dev:   __temporal_custom_payload_converter (ignored) 15 bytes [optional] [built] [code generated]
+apps/orchestrator dev:   __temporal_custom_failure_converter (ignored) 15 bytes [optional] [built] [code generated]
+apps/orchestrator dev: webpack 5.104.1 compiled successfully in 158 ms { sdkComponent: 'worker', taskQueue: 'listmonk' }
+apps/orchestrator dev: 2026-01-20T13:43:57.219Z [INFO] Workflow bundle created { sdkComponent: 'worker', taskQueue: 'listmonk', size: '2.82MB' }
+apps/orchestrator dev: 2026-01-20T13:43:57.379Z [INFO] Worker state changed { sdkComponent: 'worker', taskQueue: 'main', state: 'RUNNING' }
+apps/orchestrator dev: 2026-01-20T13:43:57.380Z [INFO] No Nexus services registered, not polling for Nexus tasks { sdkComponent: 'worker', taskQueue: 'main' }
+apps/orchestrator dev: 2026-01-20T13:43:57.381Z [INFO] Worker state changed { sdkComponent: 'worker', taskQueue: 'x', state: 'RUNNING' }
+apps/orchestrator dev: 2026-01-20T13:43:57.382Z [INFO] No Nexus services registered, not polling for Nexus tasks { sdkComponent: 'worker', taskQueue: 'x' }
+apps/orchestrator dev: 2026-01-20T13:43:57.382Z [INFO] Worker state changed { sdkComponent: 'worker', taskQueue: 'linkedin', state: 'RUNNING' }
+apps/orchestrator dev: 2026-01-20T13:43:57.383Z [INFO] No Nexus services registered, not polling for Nexus tasks { sdkComponent: 'worker', taskQueue: 'linkedin' }
+apps/orchestrator dev: 2026-01-20T13:43:57.383Z [INFO] Worker state changed { sdkComponent: 'worker', taskQueue: 'reddit', state: 'RUNNING' }
+apps/orchestrator dev: 2026-01-20T13:43:57.383Z [INFO] No Nexus services registered, not polling for Nexus tasks { sdkComponent: 'worker', taskQueue: 'reddit' }
+apps/orchestrator dev: 2026-01-20T13:43:57.383Z [INFO] Worker state changed { sdkComponent: 'worker', taskQueue: 'instagram', state: 'RUNNING' }
+apps/orchestrator dev: 2026-01-20T13:43:57.383Z [INFO] No Nexus services registered, not polling for Nexus tasks { sdkComponent: 'worker', taskQueue: 'instagram' }
+apps/orchestrator dev: 2026-01-20T13:43:57.383Z [INFO] Worker state changed { sdkComponent: 'worker', taskQueue: 'facebook', state: 'RUNNING' }
+apps/orchestrator dev: 2026-01-20T13:43:57.384Z [INFO] No Nexus services registered, not polling for Nexus tasks { sdkComponent: 'worker', taskQueue: 'facebook' }
+apps/orchestrator dev: 2026-01-20T13:43:57.384Z [INFO] Worker state changed { sdkComponent: 'worker', taskQueue: 'threads', state: 'RUNNING' }
+apps/orchestrator dev: 2026-01-20T13:43:57.384Z [INFO] No Nexus services registered, not polling for Nexus tasks { sdkComponent: 'worker', taskQueue: 'threads' }
+apps/orchestrator dev: 2026-01-20T13:43:57.384Z [INFO] Worker state changed { sdkComponent: 'worker', taskQueue: 'youtube', state: 'RUNNING' }
+apps/orchestrator dev: 2026-01-20T13:43:57.384Z [INFO] No Nexus services registered, not polling for Nexus tasks { sdkComponent: 'worker', taskQueue: 'youtube' }
+apps/orchestrator dev: 2026-01-20T13:43:57.384Z [INFO] Worker state changed { sdkComponent: 'worker', taskQueue: 'gmb', state: 'RUNNING' }
+apps/orchestrator dev: 2026-01-20T13:43:57.384Z [INFO] No Nexus services registered, not polling for Nexus tasks { sdkComponent: 'worker', taskQueue: 'gmb' }
+apps/orchestrator dev: 2026-01-20T13:43:57.384Z [INFO] Worker state changed { sdkComponent: 'worker', taskQueue: 'tiktok', state: 'RUNNING' }
+apps/orchestrator dev: 2026-01-20T13:43:57.385Z [INFO] No Nexus services registered, not polling for Nexus tasks { sdkComponent: 'worker', taskQueue: 'tiktok' }
+apps/orchestrator dev: 2026-01-20T13:43:57.385Z [INFO] Worker state changed { sdkComponent: 'worker', taskQueue: 'pinterest', state: 'RUNNING' }
+apps/orchestrator dev: 2026-01-20T13:43:57.385Z [INFO] No Nexus services registered, not polling for Nexus tasks { sdkComponent: 'worker', taskQueue: 'pinterest' }
+apps/orchestrator dev: 2026-01-20T13:43:57.385Z [INFO] Worker state changed { sdkComponent: 'worker', taskQueue: 'dribbble', state: 'RUNNING' }
+apps/orchestrator dev: 2026-01-20T13:43:57.385Z [INFO] No Nexus services registered, not polling for Nexus tasks { sdkComponent: 'worker', taskQueue: 'dribbble' }
+apps/orchestrator dev: 2026-01-20T13:43:57.385Z [INFO] Worker state changed { sdkComponent: 'worker', taskQueue: 'discord', state: 'RUNNING' }
+apps/orchestrator dev: 2026-01-20T13:43:57.385Z [INFO] No Nexus services registered, not polling for Nexus tasks { sdkComponent: 'worker', taskQueue: 'discord' }
+apps/orchestrator dev: 2026-01-20T13:43:57.385Z [INFO] Worker state changed { sdkComponent: 'worker', taskQueue: 'slack', state: 'RUNNING' }
+apps/orchestrator dev: 2026-01-20T13:43:57.385Z [INFO] No Nexus services registered, not polling for Nexus tasks { sdkComponent: 'worker', taskQueue: 'slack' }
+apps/orchestrator dev: 2026-01-20T13:43:57.386Z [INFO] Worker state changed { sdkComponent: 'worker', taskQueue: 'mastodon', state: 'RUNNING' }
+apps/orchestrator dev: 2026-01-20T13:43:57.386Z [INFO] No Nexus services registered, not polling for Nexus tasks { sdkComponent: 'worker', taskQueue: 'mastodon' }
+apps/orchestrator dev: 2026-01-20T13:43:57.386Z [INFO] Worker state changed { sdkComponent: 'worker', taskQueue: 'bluesky', state: 'RUNNING' }
+apps/orchestrator dev: 2026-01-20T13:43:57.389Z [INFO] No Nexus services registered, not polling for Nexus tasks { sdkComponent: 'worker', taskQueue: 'bluesky' }
+apps/orchestrator dev: 2026-01-20T13:43:57.389Z [INFO] Worker state changed { sdkComponent: 'worker', taskQueue: 'lemmy', state: 'RUNNING' }
+apps/orchestrator dev: 2026-01-20T13:43:57.390Z [INFO] No Nexus services registered, not polling for Nexus tasks { sdkComponent: 'worker', taskQueue: 'lemmy' }
+apps/orchestrator dev: 2026-01-20T13:43:57.390Z [INFO] Worker state changed { sdkComponent: 'worker', taskQueue: 'wrapcast', state: 'RUNNING' }
+apps/orchestrator dev: 2026-01-20T13:43:57.390Z [INFO] No Nexus services registered, not polling for Nexus tasks { sdkComponent: 'worker', taskQueue: 'wrapcast' }
+apps/orchestrator dev: 2026-01-20T13:43:57.391Z [INFO] Worker state changed { sdkComponent: 'worker', taskQueue: 'telegram', state: 'RUNNING' }
+apps/orchestrator dev: 2026-01-20T13:43:57.391Z [INFO] No Nexus services registered, not polling for Nexus tasks { sdkComponent: 'worker', taskQueue: 'telegram' }
+apps/orchestrator dev: 2026-01-20T13:43:57.391Z [INFO] Worker state changed { sdkComponent: 'worker', taskQueue: 'nostr', state: 'RUNNING' }
+apps/orchestrator dev: 2026-01-20T13:43:57.391Z [INFO] No Nexus services registered, not polling for Nexus tasks { sdkComponent: 'worker', taskQueue: 'nostr' }
+apps/orchestrator dev: 2026-01-20T13:43:57.391Z [INFO] Worker state changed { sdkComponent: 'worker', taskQueue: 'vk', state: 'RUNNING' }
+apps/orchestrator dev: 2026-01-20T13:43:57.391Z [INFO] No Nexus services registered, not polling for Nexus tasks { sdkComponent: 'worker', taskQueue: 'vk' }
+apps/orchestrator dev: 2026-01-20T13:43:57.391Z [INFO] Worker state changed { sdkComponent: 'worker', taskQueue: 'medium', state: 'RUNNING' }
+apps/orchestrator dev: 2026-01-20T13:43:57.392Z [INFO] No Nexus services registered, not polling for Nexus tasks { sdkComponent: 'worker', taskQueue: 'medium' }
+apps/orchestrator dev: 2026-01-20T13:43:57.392Z [INFO] Worker state changed { sdkComponent: 'worker', taskQueue: 'devto', state: 'RUNNING' }
+apps/orchestrator dev: 2026-01-20T13:43:57.392Z [INFO] No Nexus services registered, not polling for Nexus tasks { sdkComponent: 'worker', taskQueue: 'devto' }
+apps/orchestrator dev: 2026-01-20T13:43:57.392Z [INFO] Worker state changed { sdkComponent: 'worker', taskQueue: 'hashnode', state: 'RUNNING' }
+apps/orchestrator dev: 2026-01-20T13:43:57.392Z [INFO] No Nexus services registered, not polling for Nexus tasks { sdkComponent: 'worker', taskQueue: 'hashnode' }
+apps/orchestrator dev: 2026-01-20T13:43:57.392Z [INFO] Worker state changed { sdkComponent: 'worker', taskQueue: 'wordpress', state: 'RUNNING' }
+apps/orchestrator dev: 2026-01-20T13:43:57.392Z [INFO] No Nexus services registered, not polling for Nexus tasks { sdkComponent: 'worker', taskQueue: 'wordpress' }
+apps/orchestrator dev: 2026-01-20T13:43:57.392Z [INFO] Worker state changed { sdkComponent: 'worker', taskQueue: 'listmonk', state: 'RUNNING' }
+apps/orchestrator dev: 2026-01-20T13:43:57.392Z [INFO] No Nexus services registered, not polling for Nexus tasks { sdkComponent: 'worker', taskQueue: 'listmonk' }
+apps/frontend dev:  ✓ Compiled /src/middleware in 406ms (800 modules)
+apps/frontend dev:  ○ Compiling /auth ...
+apps/frontend dev: The user aborted a request.
+apps/frontend dev: Retrying 1/3...
+apps/frontend dev:  ✓ Compiled /auth in 19.3s (12992 modules)
+apps/frontend dev: Warning: Invalid prop `domain` supplied to `React.Fragment`. React.Fragment can only have `key` and `children` props.
+apps/frontend dev:  GET /auth 200 in 19819ms
+apps/frontend dev: Warning: Invalid prop `domain` supplied to `React.Fragment`. React.Fragment can only have `key` and `children` props.
+apps/frontend dev:  GET /auth 200 in 24ms
+apps/frontend dev:  ○ Compiling /_not-found ...
+apps/frontend dev:  ✓ Compiled /_not-found in 6s (12948 modules)
+apps/frontend dev:  GET /_next/static/css/app/(app)/index.css.map 404 in 6183ms
+apps/frontend dev: Warning: Invalid prop `domain` supplied to `React.Fragment`. React.Fragment can only have `key` and `children` props.
+apps/frontend dev:  GET /auth 200 in 217ms
+apps/frontend dev: Warning: Invalid prop `domain` supplied to `React.Fragment`. React.Fragment can only have `key` and `children` props.
+apps/frontend dev:  GET /auth 200 in 59ms
+apps/frontend dev:  GET /_next/static/css/app/(app)/index.css.map 404 in 9ms

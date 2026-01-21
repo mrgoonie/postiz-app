@@ -58,3 +58,13 @@ Thumbs.db
 .secrets/
 libraries/plugins/src/plugins.ts
 i18n.cache
+
+# coding agents
+.agents
+.claude
+.opencode
+credentials
+# Generated JS files in src
+apps/*/src/**/*.js
+apps/*/src/**/*.js.map
+release-manifest.json
